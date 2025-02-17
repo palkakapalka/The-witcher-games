@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>The Witcher</title>
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="style.css">
+        <script src="javascript.js"></script>
+    </head>
+
+    <body>
+
+        <div>
+                <div class="menu">
+                        <ul id="main-menu">
+                            <li><a href=#About>The Witcher game series</a></li>
+                            <li><a href=#Games>About games</a></li>
+                            <li><a href=#Awards>Awards and nominations</a></li>
+                        </ul>
+                </div>
+
+                <h2>The Witcher game series</h2>
+
+                <img src="images/Heralt.jpg" alt="Heralt">
+                
+
+                <p id="About">
+                    <span class="First">The Witcher game series</span>
+                    <span class="Second">
+                        is a critically acclaimed and popular action role-playing game franchise developed by CD Projekt. 
+                        Inspired by the book series of the same name by Polish author Andrzej Sapkowski, the games follow the adventures of Geralt of Rivia,
+                        a monster hunter for hire known as a Witcher, in a dark and immersive fantasy world. The series is known for its morally ambiguous choices, 
+                        rich narrative, and complex characters. The games feature a combination of swordplay, magic, and alchemy, 
+                        allowing players to engage in epic battles and explore a vast open world filled with mythical creatures, 
+                        political intrigue, and compelling storylines.
+                    </span>
+                    
+                    
+                </p>
+
+                <p class="summury">
+                        The Witcher 3: Wild Hunt, the third installment, particularly stands out for its expansive world, 
+                        deep storytelling, and numerous accolades, making it one of the most celebrated RPGs of its time.
+                </p> 
+
+                <div id="Games" class="pictures">
+                    <div class="image-container">
+                        <img src="images/TheWitcher1.png" alt="TheWitcher1">
+                    </div>
+                    <div class="image-container">
+                        <img src="images/TheWitcher2.png" alt="TheWitcher2">
+                    </div>
+                    <div class="image-container">
+                        <img src="images/TheWitcher3.png" alt="TheWitcher3">
+                    </div>
+                    
+                </div>
+
+                <ol>
+                    <li> 
+                        <h4>The Witcher (2007):</h4> 
+                        The first installment introduces players to Geralt of Rivia,
+                        a genetically enhanced monster hunter, as he seeks to regain his lost memories. 
+                        Set in a politically turbulent world, Geralt becomes embroiled in a conspiracy involving kings, 
+                        sorcerers, and a mysterious organization. Players navigate a gritty and morally complex narrative while battling monsters and making impactful choices.
+                    </li>
+                    <li>
+                        <h4>The Witcher 2: Assassins of Kings (2011): </h4> 
+                        Geralt continues his quest in a more politically charged world, with kings vying for power. 
+                        Falsely accused of assassinating a monarch, Geralt seeks to clear his name and uncovers a plot that could plunge the realm into chaos. 
+                        The game introduces a branching narrative with decisions significantly affecting the story's direction, leading to multiple possible endings.
+                    </li>
+                    <li>
+                        <h4>The Witcher 3: Wild Hunt (2015): </h4> 
+                        Widely regarded as a masterpiece, The Witcher 3 follows Geralt on his quest to find his adopted daughter,
+                        Ciri, pursued by the otherworldly Wild Hunt. The game features an open-world design with vast landscapes, 
+                        intricate quests, and a morally gray storyline. 
+                        Players can shape the destiny of the Northern Realms through their choices, and the game received praise for its rich storytelling, 
+                        complex characters, and engaging gameplay.
+                    </li>
+                </ol>
+
+                <h2 id="Awards">Awards and nominations</h2>
+
+                <p>
+                    <h4>The Witcher: </h4>
+                    <ul>
+                        <li>
+                            Won several awards for its storytelling, including Best Writing and Best Story at the IGN PC Best of 2007 Awards.
+                        </li>
+                        <li>
+                            Received praise for its character development and mature themes.
+                        </li>
+                    </ul>                   
+                </p>
+                
+                <p>
+                    <h4>The Witcher 2: Assassins of Kings:</h4>
+                    <ul>
+                        <li>
+                            Won multiple awards, including Best RPG at IGN's Best of 2011 Awards.
+                        </li>
+                        <li>
+                            Praised for its branching narrative, complex characters, and improved graphics.
+                        </li>
+                    </ul>
+
+                </p>
+
+                <p>
+                    <h4>The Witcher 3: Wild Hunt:</h4>
+                    <ul>
+                        <li>
+                            Dominated The Game Awards 2015, winning Game of the Year, Best Role-Playing Game, Best Narrative, and Best Developer.
+                        </li>
+                        <li>
+                            Received numerous Game of the Year awards from various outlets, including IGN, GameSpot, and BAFTA.
+                        </li>
+                        <li>
+                            Praised for its open-world design, compelling characters, and engaging narrative.
+                        </li>
+                        <li>
+                            Earned over 800 awards and nominations globally, making it one of the most awarded games of its time.
+                        </li>
+                    </ul>
+
+                </p>
+
+
+
+                <form name="FirstForm" action="https://www.lu.lv/" onsubmit="return Hours()" method="post">
+                    How many hours have you spent playing The Witcher games?: <input type="text" name="hours">
+                    <input type="submit" value="Submit">
+                </form>
+
+                <form id="q1">
+                    Have you played at least one game in the "The Witcher" series?
+                    <select id="game">
+                        <option value="none">-</option>  
+                        <option value="yes">yes</option>
+                        <option value="no">No</option>
+                    </select>
+                    <button type="button" onclick="havePlayed()">Send</button>
+                </form>
+                
+                <div id="message"></div>
+                
+                <form id="q2">
+                    Which one ?
+                    <select id="choose">
+                        <option value="none">-</option>  
+                        <option value="The Witcher">The Witcher</option>
+                        <option value="The Witcher 2">The Witcher 2: Assassins of Kings</option>
+                        <option value="The Witcher 3">The Witcher 3: Wild Hunt</option>
+                    </select>
+                    <button type="button" onclick="ChooseGame()">Send</button>
+                </form>
+                
+                <div id="message2"></div>
+
+
+                <div class="references">
+                    <h4 >References :</h4>
+                    <ul>
+                        <li class="unordered"><a href="https://www.thewitcher.com">"The Witcher" webpage</a></li>
+                    </ul>
+                </div >
+                
+
+
+        </div>
+
+    </body>
+
+</html>

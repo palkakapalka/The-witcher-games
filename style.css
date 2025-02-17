@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100;400;700&display=swap');
+
+@media print{
+    div.references {
+        display: none;
+    }
+    div.menu {
+       display:none;
+    }
+    form{
+        display:none;
+    }
+    html{
+        display:table;
+        margin:auto;
+    }
+    h2, h3, h4, p ,li, li a {
+        color: black;
+    }
+}
+
+body {
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+ 
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: "Roboto Condensed";
+}
+
+.First {
+    font-weight: bold;
+}
+
+a {  
+    color:rgb(255, 255, 255);
+    text-decoration: none; 
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+#main-menu li{
+    display:inline;
+    margin-right: 50px;
+}
+
+.pictures {
+    display: flex;
+    justify-content: center;
+
+}
+
+.pictures img {
+    margin-right: 50px;
+}
+
+.summury{
+    font-style:italic;
+}
+
+ol li {
+    margin-bottom: 25px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-container img {
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.image-container:hover img {
+    transform: scale(1.2);
+}
+
+.references {
+    font-style:italic;
+}
+
+.unordered {
+    font-size: 25px;
+    font-style:italic;
+}
+
+#jautajums2{
+    display: none;
+}
+
+h2 {
+    color: #7E080D;
+}
+
+h3{
+    color: #7E080D;
+}
+
+h4 {
+    color: #FBC500;
+}
+
+#q2 {
+    display: none;
+}
