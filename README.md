@@ -7,6 +7,6 @@ Vienkārša vietne, ko uzrakstīju eksāmenam kursā "timekļa tehnoloģijas".
 RU
 Простой веб-сайт, который я написал для экзамена по курсу "timekļa tehnoloģijas". 
 
-🔗 **[see prewiev](https://palkakapalka.github.io/website-about-The-witcher-games/)**
+🔗 **[see prewiev](https://palkakapalka.github.io/The-witcher-games/)**
 
 
